@@ -2,4 +2,19 @@ Question 1 : What type of Machine Learning Algorithms would be used to allow you
 Question 2 : What is the difference between online learning and out-of-the-core learning?
 Question 3 : What is the importance of a train-dev set in machine learning?
 Question 4 : If suppose your model is poorly generalizing the unseen data, what possibilities are there, and how you will solve those situations?
-Question 5 : What is data leakage and what can go wrong if you tune your hyperparameters on the test set?
+Question 5 : What is data leakage and what can go wrong if you tune your hyperparameters on the test se
+
+Question 1 : What type of Machine Learning Algorithms would be used to allow your bipedal bot to walk in various terrains?
+Answer: The best Machine Learning algorithm to allow a robot to walk in unknown terrain is Reinforced Learning, where the robot can learn from response of the terrain to optimize itself.he best Machine Learning algorithm to allow a robot to walk in unknown terrain is Reinforced Learning, where the robot can learn from response of the terrain to optimize itself.
+
+Question 2 : What is the difference between online learning and out-of-the-core learning?
+Answer : The goal of dev-set is to rank the models in term of their accuracy and helps us decide which model to proceed further with. Using Dev set we rank all our models in terms of their accuracy and pick the best performing model.
+
+Question 3 : What is the importance of a train-dev set in machine learning?
+Answer : The goal of dev-set is to rank the models in term of their accuracy and helps us decide which model to proceed further with. Using Dev set we rank all our models in terms of their accuracy and pick the best performing model.
+
+Question 4 : If suppose your model is poorly generalizing the unseen data, what possibilities are there, and how you will solve those situations?
+Answer : We then went through the main approaches for improving generalization: limiting the number of weights, weight sharing, stopping training early, regularization, weight decay, and adding noise to the inputs.
+
+Question 5: What is data leakage and what can go wrong if you tune your hyperparameters on the test set?
+If you use this data to choose hyperparameters, you actually give the model a chance to "see" the test data and to develop a bias towards this test data. Therefore, you actually lose the possibility to find out how good your model would actually be on unseen data
