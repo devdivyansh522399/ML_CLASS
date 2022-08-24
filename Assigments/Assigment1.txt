@@ -1,0 +1,5 @@
+Question 1 : What type of Machine Learning Algorithms would be used to allow your bipedal bot to walk in various terrains?
+Question 2 : What is the difference between online learning and out-of-the-core learning?
+Question 3 : What is the importance of a train-dev set in machine learning?
+Question 4 : If suppose your model is poorly generalizing the unseen data, what possibilities are there, and how you will solve those situations?
+Question 5 : What is data leakage and what can go wrong if you tune your hyperparameters on the test set?
